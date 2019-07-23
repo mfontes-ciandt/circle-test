@@ -6,7 +6,6 @@ orbs:
 jobs:
   check-yarn-version:
     executor: rn/linux_js
-    working_directory: abc/
     steps:
       - run:
           name: "List dir contents"
