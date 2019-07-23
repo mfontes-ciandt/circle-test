@@ -1,0 +1,18 @@
+{
+  "author": "",
+  "name": "testpro",
+  "version": "1.1.0",
+  "browserslist": [
+    "ie >= 11"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "bem": "^2.0.0",
+    "through2-filter": "^2.0.0",
+    "ym": "^0.1.2"
+  },
+  "private": true
+}

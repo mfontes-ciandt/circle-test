@@ -1,0 +1,10 @@
+{
+    "name": "abcxyz",
+    "private": true,
+    "workspaces": [
+        "abc",
+        "xyz"
+    ],  
+    "devDependencies": {}
+}
+
