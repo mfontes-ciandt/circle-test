@@ -8,7 +8,10 @@ jobs:
     executor: rn/linux_js
     working_directory: abc/
     steps:
-      - checkout
+      - run:
+          name: "List dir contents"
+          command: |
+            pwd && ls -al
       - run:
           name: "Check YARN version"
           command: |
