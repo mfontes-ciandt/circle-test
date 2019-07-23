@@ -6,11 +6,16 @@ orbs:
 jobs:
   check-yarn-version:
     executor: rn/linux_js
+    working_directory: abc/
     steps:
       - run:
           name: "Check YARN version"
           command: |
             yarn --version
+      - run:
+          name: "Install Yarn dependencies"
+          command: |
+            yarn install
   check-npm-version:
     executor: rn/linux_js
     steps:
